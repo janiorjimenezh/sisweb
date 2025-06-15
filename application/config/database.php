@@ -73,21 +73,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $active_group = 'default';
 $query_builder = TRUE;
 
-//CHARLES: 198.211.99.54
-//HUARMACA: 159.203.180.224
-//CANCHAQUE 157.245.251.20
-//IESCOOP 157.230.94.208
-//SINCRO  167.99.51.230
 
-$vpsIP="167.99.51.230"; //SINCRO
+$vpsIP="localhost"; //SINCRO
 $mysqlUser="webIesap";
-$mysqlPass='@P13S4P.W3r4';
-$mysqlBase='sincro_iesap';
-
-// $vpsIP="167.99.51.230"; //SINCRO
-// $mysqlUser="webBellavista";
-// $mysqlPass='@b3ll4v1st4.W3r4';
-// $mysqlBase='sincro_bellavista';
+$mysqlPass='123456';
+$mysqlBase='sincro_launion';
 
 
 $db['default'] = array(
