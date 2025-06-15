@@ -105,9 +105,9 @@ $db['default'] = array(
 //CONEXIÓN A CANCHAQUE PARA SOLICITAR ACCIONES Y COMPONENTES PARA PERMISOS
 $db['scanchaquepm'] = array(
 	'dsn'	=> '',
-	'hostname' => '157.230.94.208',
-	'username' => 'simpleuser2',
-	'password' => '@Alexander3105',
+	'hostname' => 'localhost',
+	'username' => 'simple',
+	'password' => '@alex1234',
 	'database' => 'bd_permisos',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
